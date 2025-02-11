@@ -1,0 +1,38 @@
+.category-products-container
+{
+    padding: 20px;
+    background-color: #ffe0e5;
+    margin-top: 20px;
+}
+
+.products-grid
+{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.price-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.product-card
+{
+    padding: 15px;
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 7px;
+}
+
+.product-card img{
+    border-radius: 7px;
+    height: 250px;
+    width: 250px;
+}

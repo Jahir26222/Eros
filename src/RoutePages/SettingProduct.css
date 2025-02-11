@@ -1,0 +1,110 @@
+  
+  .profile-form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    
+  
+  }
+  
+  h3 {
+    margin-bottom: 5px;
+  }
+  
+  .profile-text {
+    color: #5A607F;
+    margin-bottom: 15px;
+  }
+  
+  .img-box {
+    border: 2px dashed #5A607F;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: auto;
+    border-radius: 8px;
+  }
+  
+  .img-box input[type="file"] {
+    display: none;
+  }
+  
+  .img-box label {
+    color: #9D0910;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .profile-form-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-from {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+
+  .profile-from p{
+    color: #5A607F;
+  }
+  
+  .profile-from input, .profile-from select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 19px;
+  }
+  
+  .profile-from input:focus{
+     outline: none;
+  }
+
+
+  hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+ .regional-settings #top-txt{
+   color: #5A607F;
+   margin-bottom: 20px;
+ }
+
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+.profile-from select
+{
+    height: 40px;
+    padding: 0px;
+}
+
+  .cancel-btn {    
+    color: #9D0910;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-btn {
+    background-color: #9D0910;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

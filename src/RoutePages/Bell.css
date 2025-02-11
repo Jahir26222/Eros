@@ -1,0 +1,68 @@
+
+   .button-group{
+   padding-top: 25px;
+    border-top: 2px solid #ccc;
+   }
+
+
+
+   .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .toggle-button {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50px; /* Increased for more roundness */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle inner shadow for depth */
+  }
+  
+  .toggle-circle {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%; /* Ensures perfect circle */
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%); /* Vertically center the circle */
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Soft shadow for floating effect */
+  }
+  
+  .toggle-button.active {
+    background-color: #4caf50;
+  }
+  
+  .toggle-button.active .toggle-circle {
+    transform: translate(30px, -50%); /* Moves right while staying centered */
+  }
+  
+  .toggle-label {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .notification-section
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin-top: 30px;
+    border-top: 2px solid #ccc;
+  }
+
+  .notification-section p{
+    color: #5A607F;
+  }
